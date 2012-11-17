@@ -1,53 +1,30 @@
 package de.deepamehta.plugins.example.webapp;
 
-import de.deepamehta.plugins.thymeleaf.service.ThymeleafService;
-import de.deepamehta.core.osgi.PluginActivator;
-import de.deepamehta.core.service.PluginService;
-import de.deepamehta.core.service.event.PluginServiceArrivedListener;
+import de.deepamehta.plugins.webactivator.WebActivatorPlugin;
+import de.deepamehta.core.service.event.InitializePluginListener;
 
-import org.thymeleaf.TemplateEngine;
-import org.thymeleaf.context.Context;
+import com.sun.jersey.api.view.Viewable;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
-import java.util.logging.Logger;
-
 
 
 @Path("/example-webapp")
 @Produces("text/html")
-public class ExampleWebappPlugin extends PluginActivator implements PluginServiceArrivedListener {
-
-    // ---------------------------------------------------------------------------------------------- Instance Variables
-
-    private TemplateEngine templateEngine;
-    private Context context = new Context();
-
-    private Logger logger = Logger.getLogger(getClass().getName());
-
-    // -------------------------------------------------------------------------------------------------- Public Methods
+public class ExampleWebappPlugin extends WebActivatorPlugin implements InitializePluginListener {
 
     @GET
-    public String welcome() {
+    public Viewable welcome() {
         context.setVariable("name", "Thymeleaf");
-        return templateEngine.process("welcome", context);
+        return view("welcome");
     }
 
-
-
-    // ********************************
-    // *** Listener Implementations ***
-    // ********************************
-
-
+    // ---
 
     @Override
-    public void pluginServiceArrived(PluginService service) {
-        logger.info("########## Service arrived: " + service);
-        if (service instanceof ThymeleafService) {
-            templateEngine = ((ThymeleafService) service).createTemplateEngine(bundle);
-        }
+    public void initializePlugin() {
+        setupRenderContext();
     }
 }
