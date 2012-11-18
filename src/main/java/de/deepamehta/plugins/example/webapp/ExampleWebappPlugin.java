@@ -1,7 +1,6 @@
 package de.deepamehta.plugins.example.webapp;
 
 import de.deepamehta.plugins.webactivator.WebActivatorPlugin;
-import de.deepamehta.core.service.event.InitializePluginListener;
 
 import com.sun.jersey.api.view.Viewable;
 
@@ -13,18 +12,16 @@ import javax.ws.rs.Produces;
 
 @Path("/example-webapp")
 @Produces("text/html")
-public class ExampleWebappPlugin extends WebActivatorPlugin implements InitializePluginListener {
+public class ExampleWebappPlugin extends WebActivatorPlugin {
+
+    @Override
+    public void init() {
+        setupRenderContext();
+    }
 
     @GET
     public Viewable welcome() {
         context.setVariable("name", "Thymeleaf");
         return view("welcome");
-    }
-
-    // ---
-
-    @Override
-    public void initializePlugin() {
-        setupRenderContext();
     }
 }
