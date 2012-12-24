@@ -12,15 +12,19 @@ DeepaMehta 4 is a platform for collaboration and knowledge management.
 Version History
 ---------------
 
+**v0.3** -- Dec 24, 2012
+
+* Compatible with DeepaMehta 4 Web Activator 0.3
+
 **v0.2** -- Nov 17, 2012
 
-* Compatible with *DeepaMehta 4 Web Activator* 0.2
+* Compatible with DeepaMehta 4 Web Activator 0.2
 
 **v0.1** -- Nov 16, 2012
 
-* Compatible with *DeepaMehta 4 Web Activator* 0.1
+* Compatible with DeepaMehta 4 Web Activator 0.1
 
 
 ------------
 Jörg Richter  
-Nov 17, 2012
+Dec 24, 2012

@@ -7,7 +7,7 @@
     <name>DeepaMehta 4 Example Webapp</name>
     <groupId>de.deepamehta</groupId>
     <artifactId>deepamehta-example-webapp</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <packaging>bundle</packaging>
 
     <parent>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>de.deepamehta</groupId>
             <artifactId>deepamehta-webactivator</artifactId>
-            <version>0.3-SNAPSHOT</version>
+            <version>0.3</version>
         </dependency>
     </dependencies>
 
