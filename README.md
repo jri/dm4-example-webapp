@@ -9,8 +9,22 @@ DeepaMehta 4 is a platform for collaboration and knowledge management.
 <https://github.com/jri/deepamehta>
 
 
+Usage
+-----
+
+Open this URL:
+
+    http://localhost:8080/example-webapp
+
+You'll see a rendered HTML page: "Thymeleaf HTML templates in DeepaMehta!"
+
+
 Version History
 ---------------
+
+**v0.3.1** -- Mar 19, 2013
+
+* Compatible with DeepaMehta 4 Web Activator 0.3.1
 
 **v0.3** -- Dec 24, 2012
 
@@ -27,4 +41,4 @@ Version History
 
 ------------
 Jörg Richter  
-Dec 24, 2012
+Mar 19, 2013
