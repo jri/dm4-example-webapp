@@ -16,12 +16,12 @@ public class ExampleWebappPlugin extends WebActivatorPlugin {
 
     @Override
     public void init() {
-        setupRenderContext();
+        initTemplateEngine();
     }
 
     @GET
     public Viewable welcome() {
-        context.setVariable("name", "Thymeleaf");
+        setViewModel("name", "Thymeleaf");
         return view("welcome");
     }
 }
