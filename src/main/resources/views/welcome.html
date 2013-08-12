@@ -5,6 +5,11 @@
         <title>DeepaMehta 4 Example Webapp</title>
     </head>
     <body>
-        <h1><span th:text="${name}">placeholder</span> HTML templates in DeepaMehta!</h1>
+        <h1>
+            <span th:text="${engine}">placeholder</span> HTML templates in DeepaMehta!
+        </h1>
+        <p th:text="${session} ? 'Logged in as ' + ${session.username} : 'Not logged in'">
+            Login status
+        </p>
     </body>
 </html>

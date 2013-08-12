@@ -21,7 +21,7 @@ public class ExampleWebappPlugin extends WebActivatorPlugin {
 
     @GET
     public Viewable welcome() {
-        setViewModel("name", "Thymeleaf");
+        viewData("engine", "Thymeleaf");
         return view("welcome");
     }
 }
