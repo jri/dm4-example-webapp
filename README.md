@@ -25,6 +25,10 @@ Additionally your DeepaMehta (Webclient) login status is shown.
 Version History
 ---------------
 
+**v0.4.2** -- Feb 18, 2014
+
+* Compatible with DeepaMehta 4 Web Activator 0.4.2
+
 **v0.4** -- Sep 2, 2013
 
 * Demonstrates accessing session attributes:
@@ -51,4 +55,4 @@ Version History
 
 ------------
 Jörg Richter  
-Sep 2, 2013
+Feb 18, 2014
