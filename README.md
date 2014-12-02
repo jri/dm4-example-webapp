@@ -25,6 +25,10 @@ Additionally your DeepaMehta (Webclient) login status is shown.
 Version History
 ---------------
 
+**v0.4.4** -- Dec 2, 2014
+
+* Compatible with DeepaMehta 4 Web Activator 0.4.4
+
 **v0.4.3** -- Jun 8, 2014
 
 * Compatible with DeepaMehta 4 Web Activator 0.4.3
@@ -59,4 +63,4 @@ Version History
 
 ------------
 Jörg Richter  
-Jun 8, 2014
+Dec 2, 2014
