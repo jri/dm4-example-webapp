@@ -2,7 +2,7 @@
 DeepaMehta 4 Thymeleaf Demo
 ===========================
 
-A very simple demo application developed with *DeepaMehta 4 Thymeleaf*.
+A simple demo application developed with *DeepaMehta 4 Thymeleaf*.
 
 DeepaMehta 4 Thymeleaf:  
 <https://github.com/jri/dm4-thymeleaf>
@@ -14,7 +14,7 @@ DeepaMehta 4 is a platform for collaboration and knowledge management.
 Running
 -------
 
-Open this URL:
+Open this page:
 
     http://localhost:8080/thymeleaf-demo
 
@@ -24,6 +24,11 @@ Additionally your DeepaMehta (Webclient) login status is shown.
 
 Version History
 ---------------
+
+**v0.5** -- Apr 17, 2016
+
+* Renamed from "DM4 Example Webapp" to "DM4 Thymeleaf Demo".
+* Compatible with DeepaMehta 4 Thymeleaf 0.5
 
 **v0.4.6** -- Oct 24, 2015
 
@@ -67,4 +72,4 @@ Version History
 
 ------------
 Jörg Richter  
-Oct 24, 2015
+Apr 17, 2016
