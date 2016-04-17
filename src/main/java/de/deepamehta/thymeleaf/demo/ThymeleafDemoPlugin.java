@@ -1,6 +1,6 @@
-package de.deepamehta.plugins.example.webapp;
+package de.deepamehta.thymeleaf.demo;
 
-import de.deepamehta.plugins.webactivator.WebActivatorPlugin;
+import de.deepamehta.thymeleaf.ThymeleafPlugin;
 
 import com.sun.jersey.api.view.Viewable;
 
@@ -10,9 +10,9 @@ import javax.ws.rs.Produces;
 
 
 
-@Path("/example-webapp")
+@Path("/thymeleaf-demo")
 @Produces("text/html")
-public class ExampleWebappPlugin extends WebActivatorPlugin {
+public class ThymeleafDemoPlugin extends ThymeleafPlugin {
 
     @Override
     public void init() {

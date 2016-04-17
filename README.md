@@ -1,24 +1,24 @@
 
-DeepaMehta 4 Example Webapp
+DeepaMehta 4 Thymeleaf Demo
 ===========================
 
-A very simple web application developed with *DeepaMehta 4 Web Activator*.
+A very simple demo application developed with *DeepaMehta 4 Thymeleaf*.
 
-DeepaMehta 4 Web Activator:  
-<https://github.com/jri/dm4-webactivator>
+DeepaMehta 4 Thymeleaf:  
+<https://github.com/jri/dm4-thymeleaf>
 
 DeepaMehta 4 is a platform for collaboration and knowledge management.  
 <https://github.com/jri/deepamehta>
 
 
-Usage
------
+Running
+-------
 
 Open this URL:
 
-    http://localhost:8080/example-webapp
+    http://localhost:8080/thymeleaf-demo
 
-You'll see a server-side rendered HTML page: "Thymeleaf HTML templates in DeepaMehta!".  
+You'll see a server-side rendered HTML page: "Thymeleaf HTML templating in DeepaMehta!".  
 Additionally your DeepaMehta (Webclient) login status is shown.
 
 

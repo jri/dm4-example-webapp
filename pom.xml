@@ -4,10 +4,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>DeepaMehta 4 Example Webapp</name>
+    <name>DeepaMehta 4 Thymeleaf Demo</name>
     <groupId>de.deepamehta</groupId>
-    <artifactId>dm48-example-webapp</artifactId>
-    <version>0.4.7-SNAPSHOT</version>
+    <artifactId>dm48-thymeleaf-demo</artifactId>
+    <version>0.5-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <parent>
@@ -19,8 +19,8 @@
     <dependencies>
         <dependency>
             <groupId>de.deepamehta</groupId>
-            <artifactId>dm48-webactivator</artifactId>
-            <version>0.4.7-SNAPSHOT</version>
+            <artifactId>dm48-thymeleaf</artifactId>
+            <version>0.5-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -31,9 +31,10 @@
                 <artifactId>maven-bundle-plugin</artifactId>
                 <configuration>
                     <instructions>
+                        <!-- Note: the symbolic name is legacy but must not be changed -->
                         <Bundle-SymbolicName>de.deepamehta.example-webapp</Bundle-SymbolicName>
                         <Bundle-Activator>
-                            de.deepamehta.plugins.example.webapp.ExampleWebappPlugin
+                            de.deepamehta.thymeleaf.demo.ThymeleafDemoPlugin
                         </Bundle-Activator>
                     </instructions>
                 </configuration>
